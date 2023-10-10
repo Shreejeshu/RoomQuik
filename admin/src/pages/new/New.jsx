@@ -24,9 +24,10 @@ const navigate=useNavigate()
     data.append("upload_preset", "upload");
     try {
       const uploadRes = await axios.post(
-        "https://api.cloudinary.com/v1_1/mohit-cloud/image/upload",
+        "https://api.cloudinary.com/v1_1/dsmbvgnd4/image/upload",
         data
       );
+      console.log(data)
 
       const { url } = uploadRes.data;     // providing the url of the cloud where the image get stored. 
 

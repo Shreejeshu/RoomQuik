@@ -38,7 +38,7 @@ const navigate=useNavigate()
           data.append("file", file);
           data.append("upload_preset", "upload");
           const uploadRes = await axios.post(
-            "https://api.cloudinary.com/v1_1/mohit-cloud/image/upload",
+            "https://api.cloudinary.com/v1_1/dsmbvgnd4/image/upload",
             data
           );
 

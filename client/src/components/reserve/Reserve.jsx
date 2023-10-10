@@ -7,21 +7,12 @@ import { useContext, useState } from "react";
 import { SearchContext } from "../../context/SearchContext";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { useEffect } from "react";
-import { PayPalButton } from "react-paypal-button-v2";
 
-// window.paypal=paypal
-
-
-
-
-const Reserve = ({ setOpen, hotelId }) => {
+const Reserve = ({setOpen, hotelId}) => {
 
   const [selectedRooms, setSelectedRooms] = useState([]);
-  const { data, loading, error } = useFetch(`/hotels/room/${hotelId}`);
+  const {data, loading, error} = useFetch(`/hotels/room/${hotelId}`);
   const { dates } = useContext(SearchContext);
-  
-  // const [sdkReady, setSdkReady] = useState<Boolean>(false);
 
   const handleSelect = (e) => {
     const checked = e.target.checked;
@@ -52,7 +43,7 @@ const Reserve = ({ setOpen, hotelId }) => {
   const alldates = getDatesInRange(dates[0].startDate, dates[0].endDate);
 
   // for checking if the room is available or not
-  const isAvailable = (roomNumber) => {
+  const isAvailable = (roomNumber) => {                                        
     const isFound = roomNumber.unavailableDates.some((date) =>         // some method - check whether it include some of them or not 
       alldates.includes(new Date(date).getTime())
     );
@@ -60,7 +51,7 @@ const Reserve = ({ setOpen, hotelId }) => {
     return !isFound;          // isFound true means date is unavailable
   };
 
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const handleClick = async () => {
     try {
@@ -73,49 +64,17 @@ const Reserve = ({ setOpen, hotelId }) => {
         })
       );
       setOpen(false);
-      alert("Room reserved successfully")
-      // navigate("/");
+      navigate("/");
     } catch (err) {}
   };
 
-
-  useEffect(() => {
-
-    const addPaypalScript = async () => {
-      const { data: clientId } = await axios.get("/api/config/paypal");
-      const script = document.createElement("script");
-      script.type = "text/javascript";
-      script.src = `https://www.paypal.com/sdk/js?client-id=${clientId}`;
-      script.async = true;
-      script.async = true;
-      script.onload = () => {
-        // setSdkReady(true);
-      };
-      document.body.appendChild(script);
-  };
-
-  if (!window.paypal) {
-    addPaypalScript();
-  } else {
-      // setSdkReady(true);
-      addPaypalScript();
-  }
-  
-    // if (!window.paypal) {
-    //   addPaypalScript();
-    // } else {
-    //   setSdkReady(true);
-    // }
-
-
-  })
   return (
-
+    
     <div className="reserve">
-      <div className="rContainer">
-        <FontAwesomeIcon icon={faCircleXmark} className="rClose" onClick={() => setOpen(false)} />
-        <span>Select your rooms:</span>
-        {data.map((item) => (
+        <div className="rContainer">
+            <FontAwesomeIcon icon={faCircleXmark} className="rClose" onClick={()=>setOpen(false)}/>
+            <span>Select your rooms:</span>
+            {data.map((item) => (
           <div className="rItem" key={item._id}>
             <div className="rItemInfo">
               <div className="rTitle">{item.title}</div>
@@ -142,12 +101,10 @@ const Reserve = ({ setOpen, hotelId }) => {
         ))}
         <button onClick={handleClick} className="rButton">
           Reserve Now!
-        </button> 
-       
+        </button>
       </div>
     </div>
   );
 };
 
-export default Reserve
-
+export default  Reserve

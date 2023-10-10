@@ -4,7 +4,7 @@ import "./featured.css";
 const Featured = () => {
 
   console.log("dfsdsd")
-  const {data,loading, error} = useFetch("hotels/countByCity?cities=Bangalore,chennai,mumbai,kerala");
+  const {data,loading, error} = useFetch("hotels/countByCity?cities=bangalore,chennai,mumbai,kochi");
 
   return (
     <div className="featured">
@@ -13,13 +13,13 @@ const Featured = () => {
           <>
           <div className="featuredItem">
           <img
-            src="https://cf.bstatic.com/xdata/images/city/max500/957801.webp?k=a969e39bcd40cdcc21786ba92826063e3cb09bf307bcfeac2aa392b838e9b7a5&o="
+            src="https://i.postimg.cc/L5g1yZNb/residents-beach-club-punta-mita.jpg"
             alt=""
             className="featuredImg"
           />
           <div className="featuredTitles">
-            <h1>Kasaragod</h1>
-            <h2>1 properties</h2>
+            <h1>Kochi</h1>
+            <h2>{data[0]} properties</h2>
           </div>
         </div>
         

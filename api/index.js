@@ -67,9 +67,9 @@ app.use("/api/users", usersRoute);
 app.use("/api/hotels", hotelsRoute);
 app.use("/api/rooms", roomsRoute);
 
-app.get("/api/config/paypal", (req, res) => {
-    res.status(201).send(process.env.PAYPAL_CLIENT_ID);
-  });
+// app.get("/api/config/paypal", (req, res) => {
+//     res.status(201).send(process.env.PAYPAL_CLIENT_ID);
+//   });
 
 
 

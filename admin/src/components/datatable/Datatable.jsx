@@ -25,7 +25,7 @@ const Datatable = ({columns}) => {
       await axios.delete(`/${path}/${id}`);
       setList(list.filter((item) => item._id !== id));
       alert(`${path} deleted`)
-      navigate(`/${path}`)
+      // navigate(`/${path}`)
     } catch (err) {}
   };
 

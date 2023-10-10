@@ -42,7 +42,7 @@ const navigate=useNavigate()
     <div className="navbar">
       <div className="navContainer">
         <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>
-          <span className="logo">RedDoorz</span>
+          <span className="logo">RoomQuik</span>
         </Link>   {/* if there is user show his username otherwise show this div.  */}
         {user ?
         
