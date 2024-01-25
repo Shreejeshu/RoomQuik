@@ -35,6 +35,7 @@ const Login = () => {
         catch(err){
             dispatch({type:"LOGIN_FAILURE", payload:err.response.details});
             alert("Login failed")
+           
         }
     } 
 
