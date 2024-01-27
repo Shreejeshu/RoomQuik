@@ -4,8 +4,10 @@
   "description": "A hotel booking site which search allows users to compare hotel prices in just a few clicks.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
+  "engines":{"node":">=14.20.1"},
   "author": "",
   "license": "ISC",
   "dependencies": {
