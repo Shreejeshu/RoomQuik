@@ -17,7 +17,7 @@ contain the front-end part.
 ---
 # Website Overview
 ## `Landing Page`
-![Screenshot (182)](https://github.com/Shreejeshu/RedDoorz/assets/129499258/db6eb614-ba84-409f-ab8b-4d76c11926a8)
+![Screenshot (4)](https://github.com/Shreejeshu/RoomQuik/assets/129499258/c8459693-f732-4222-9622-917d7f0953be)
 
 
 
@@ -25,31 +25,36 @@ contain the front-end part.
   select city, duration, rooms         |  different cities
 :-------------------------:|:-------------------------:
 
-![Screenshot (183)](https://github.com/Shreejeshu/RedDoorz/assets/129499258/a8c9446f-1fda-450b-9959-b2b1d496c72c) | ![]![Screenshot (184)](https://github.com/Shreejeshu/RedDoorz/assets/129499258/250a6388-5a5c-4cc6-996a-aa43392006ed)
+![Screenshot (12)](https://github.com/Shreejeshu/RoomQuik/assets/129499258/c9d71019-5c6b-44bb-9214-b06b8478ca47)
 
 ## `Compare Prices`
-![Screenshot (185)](https://github.com/Shreejeshu/RedDoorz/assets/129499258/bded0688-6316-4918-81a4-c04f427e8768)
+![Screenshot (7)](https://github.com/Shreejeshu/RoomQuik/assets/129499258/f27fd012-c713-47df-a838-7b9807910fea)
+
 ## `Rooms`
-![Screenshot (186)](https://github.com/Shreejeshu/RedDoorz/assets/129499258/5cb8fd4c-a3c3-4e28-b12e-ff7f41dd0319)
+![Screenshot (8)](https://github.com/Shreejeshu/RoomQuik/assets/129499258/55b530cd-46f7-4fbe-9fff-b710cf74afd2)
+
+![Screenshot (13)](https://github.com/Shreejeshu/RoomQuik/assets/129499258/ceb616c6-5a85-45ac-997f-09fc13c9603e)
+
 
 ## `login`
-![Screenshot (187)](https://github.com/Shreejeshu/RedDoorz/assets/129499258/5304f91a-5047-4f8f-b0be-1d7419130a73)
+![Screenshot (6)](https://github.com/Shreejeshu/RoomQuik/assets/129499258/ddf54b98-943c-4c15-820b-3f33bcd777fd)
 
 ## `register`
 
-![Screenshot (188)](https://github.com/Shreejeshu/RedDoorz/assets/129499258/3a2cb3e7-8dd5-4015-8feb-8ee1281810b6)
+![Screenshot (5)](https://github.com/Shreejeshu/RoomQuik/assets/129499258/dbab5870-4394-4418-bbb6-257948d0bec1)
 
 ## `admin` crud operations
-![Screenshot (189)](https://github.com/Shreejeshu/RedDoorz/assets/129499258/352f6cc0-f190-46e8-8e76-a875d999eaa3)
 
-![Screenshot (190)](https://github.com/Shreejeshu/RedDoorz/assets/129499258/49cf6c4e-adf8-4392-a16d-aa509e53dcc7)
+![Screenshot (14)](https://github.com/Shreejeshu/RoomQuik/assets/129499258/7e449f4f-a9cd-485d-9e0d-fdafa4408cc5)
 
-![Screenshot (191)](https://github.com/Shreejeshu/RedDoorz/assets/129499258/726134f4-9acd-4b41-af36-2cbfe430862c)
+![Screenshot (9)](https://github.com/Shreejeshu/RoomQuik/assets/129499258/d4af1039-db7d-4272-ab7c-dc623853c221)
 
+![Screenshot (15)](https://github.com/Shreejeshu/RoomQuik/assets/129499258/b4b00c39-d3e7-4e76-a5f5-f41775b2e2a5)
 
-![Screenshot (192)](https://github.com/Shreejeshu/RedDoorz/assets/129499258/b486bbaa-b5dd-4738-9747-13499250cfce)
+![Screenshot (10)](https://github.com/Shreejeshu/RoomQuik/assets/129499258/da548676-cc36-41d1-aa41-600c90732e02)
 
-![Screenshot (196)](https://github.com/Shreejeshu/RedDoorz/assets/129499258/029e50f1-f439-4080-911e-fb1e8a811a4a)
+![Screenshot (16)](https://github.com/Shreejeshu/RoomQuik/assets/129499258/0555559b-9d33-4d1f-ad29-ac3bd2aa8994)
 
-![Screenshot (197)](https://github.com/Shreejeshu/RedDoorz/assets/129499258/eac5fc0e-c913-4648-8ecb-2b39cd32b066)
+![Screenshot (11)](https://github.com/Shreejeshu/RoomQuik/assets/129499258/28c91593-f41b-435e-8d99-1716f11585e2)
 
+![Screenshot (17)](https://github.com/Shreejeshu/RoomQuik/assets/129499258/14b2f42f-0073-4841-9f1d-91f425006528)
